@@ -52,6 +52,7 @@ button {
 #display {
   margin: 15px;
   font-size: 2.5em;
+  text-shadow: 1px 1px 3px black;
   /* border: 5px solid #000; */
 }
 
