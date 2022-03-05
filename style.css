@@ -1,0 +1,83 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Utilities stylings - START */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+/* Utilities stylings - END */
+
+/* Body stylings - START */
+
+body {
+  background-color: rgb(65, 12, 17);
+  font-family: sans-serif;
+  color: white;
+}
+/* Body stylings - END */
+
+/* Main stylings - START */
+main {
+  background-color: rgb(14, 12, 139);
+  min-height: 600px;
+  padding: 40px;
+  text-align: center;
+}
+
+button {
+  width: 80px;
+  height: 80px;
+  font-size: 2em;
+  margin: 2px;
+}
+.output-display {
+  width: 55%;
+  margin: 0 auto;
+  background-color: grey;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+#display {
+  margin: 15px;
+  font-size: 2.5em;
+  /* border: 5px solid #000; */
+}
+
+.keys {
+  box-shadow: 3px 4px 4px 0px #899599;
+  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  background-color: #ededed;
+  border-radius: 15px;
+  border: 1px solid #d6bcd6;
+  display: inline-block;
+  cursor: pointer;
+  color: #0a3945;
+  font-family: Verdana;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 17px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #e1e2ed;
+}
+.keys:hover {
+  background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+  background-color: #bab1ba;
+}
+.keys:active {
+  position: relative;
+  top: 1px;
+}
+
+/* Main stylings - END */

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>xx_CHANGE-ME__XX<</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- start -- MAIN -->
+    <main class="container">
+        <div id="calculator">
+            <div class="output-display flex"">
+              <h1 id="display">0</h1>
+            </div>
+            <div class="row">
+              <button class="keys" onclick="press(7);">7</button>
+              <button class="keys" onclick="press(8);">8</button>
+              <button class="keys" onclick="press(9);">9</button>
+              <button class="operator keys" onclick="setOP('/');">÷</button>
+            </div>
+            <div class="row">
+              <button class="keys" onclick="press(4);">4</button>
+              <button class="keys"onclick="press(5);">5</button>
+              <button class="keys"onclick="press(6);">6</button>
+              <button class="operator keys" onclick="setOP('*');">×</button>
+            </div>
+            <div class="row">
+              <button class="keys" onclick="press(1);">1</button>
+              <button class="keys" onclick="press(2);">2</button>
+              <button class="keys" onclick="press(3);">3</button>
+              <button class="operator keys" onclick="setOP('-');">−</button>
+            </div>
+            <div class="row">
+              <button class="keys" onclick="clr();">C</button>
+              <button class="keys" onclick="press(0);">0</button>
+              <button class="keys" onclick="press('.');">.</button>
+              <button class="operator keys" onclick="setOP('+');">+</button>
+            </div>
+            <div class="row">
+              <button class="keys" id="equals" onclick="calculation()">=</div>
+            </div>
+          <div>
+    </main>
+    <!-- end -- MAIN -->
+
+    <!-- start -- JavaScript -->
+    <script src="./app.js"></script>
+  </body>
+</html>
